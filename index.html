@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3 logo">
+          <a href="">
+            <img src="img/logo.png" alt="logo">
+
+          </a>
+        </div>
+        <div class="col-6">
+          <nav>
+            <ul class="menu">
+              <li><a href="">Home</a></li>
+              <li><a class="dropdown" href="">Products</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Lorem ipsum dolor</a>
+                  <a class="dropdown-item" href="#">Sit amet</a>
+                  <a class="dropdown-item" href="#">Consectetur adipisicing </a>
+                  <a class="dropdown-item" href="#">Architecto consequatur</a>
+                </div>
+              </li>
+              <li><a href="">Payments</a></li>
+              <li><a href="">Shipping</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-3">
+          <div class="row">
+            <div class="col-9">
+              <div class="search-form">
+                <input type="text" placeholder="search">
+                <button type="submit">
+                  <img src="img/icon (4).png" alt="picture">
+                </button>
+              </div>
+
+            </div>
+            <div class="col-3">
+              <div class="cart">
+                <img src="img/icon (1).png" alt="Shop">
+                <div class="product-count">0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container wrapper">
+
+    <div class="row">
+
+      <aside class="col-3  sidebar">
+
+        <div class="sidebar-filter">
+
+          <form>
+
+            <fieldset class="form-group">
+              <legend>Device type</legend>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option1" id="option1" value="option1" checked>
+                <label class="form-check-label" for="option1">
+                  Laptop
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option2" id="option2" value="option2">
+                <label class="form-check-label" for="option2">
+                  Tablet
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>Color</legend>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option3" id="option3" value="option3" >
+                <label class="form-check-label" for="option3">
+                  Black
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option4" id="option4" value="option4">
+                <label class="form-check-label" for="option4">
+                  Red
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option5" id="option5" value="option5" checked>
+                <label class="form-check-label" for="option5">
+                  Green
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option6" id="option6" value="option6">
+                <label class="form-check-label" for="option6">
+                  Blue
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option7" id="option7" value="option7">
+                <label class="form-check-label" for="option7">
+                  Orange
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <legend>RAM</legend>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option8" id="option8" value="option8">
+                <label class="form-check-label" for="option8">
+                  1GB
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option9" id="option9" value="option9">
+                <label class="form-check-label" for="option9">
+                  2GB
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="option10" id="option10" value="option10" checked>
+                <label class="form-check-label" for="option10">
+                  4GB
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="opt11" id="opt11" value="opt11">
+                <label class="form-check-label" for="opt11">
+                  6GB
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="opt12" id="opt12" value="opt12">
+                <label class="form-check-label" for="opt12">
+                  8GB
+                </label>
+              </div>
+            </fieldset>
+
+            <div> <a href="#" class="sidebar-filter__more">Show more options...</a></div>
+            <div> <button type="submit" class="btn sidebar-filter__submit">Submit</button></div>
+          </form>
+        </div>
+
+      </aside>
+
+
+      <main class="col-9 ">
+
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home page</a></li>
+                <li class="breadcrumb-item"><a href="#">Products</a></li>
+                <li class="breadcrumb-item active"><a href="#">Laptops and Tablets</a></li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row page-title">
+          <div class="col-8">
+            <h1 class="page-title__header">Laptops and Tablets</h1>
+          </div>
+          <div class="col-4">
+            <select name="filter" class="page-title__filter">
+              <option value="1">sort by price</option>
+              <option value="2">sort by name</option>
+              <option value="3">sort by date</option>
+              <option value="4">sort by popularity</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row page-content ">
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (17).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#1 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+                <div class="item-price">$599 <sup>25</sup></div>
+                <div class="item-actions">
+                  <button class="btn item-actions__more">
+                    More details
+                  </button>
+                  <button class="btn item-actions__cart">
+                    Add to cart
+                    <img src="img/icon (2).png" alt="img">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (11).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#2 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$1250 <sup>99</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (10).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#3 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$399 <sup>50</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (16).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#1 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$599 <sup>25</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (14).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#2 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$1250 <sup>99</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (12).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#3 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$399 <sup>50</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (15).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#1 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$599 <sup>25</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (9).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#2 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$1250 <sup>99</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 content-item">
+            <div class="item-wrapper">
+              <div class="item-image">
+                <img src="img/icon (13).png" alt="img">
+              </div>
+              <div class="container-fluid">
+                <h2 class="item-title">#3 Device Name</h2>
+                <div class="item-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+                <div class="item-characteristics">
+                  <span><strong>TYPE:</strong> Laptop</span>
+                  <span><strong>SCREEN SIZE:</strong> 7 inches</span>
+                  <span><strong>RAM:</strong> 1 GB</span>
+                </div>
+                <div class="item-buttons">
+                  <button class="btn-square"></button>
+                  <button class="btn-heart"></button>
+                </div>
+              </div>
+              <div class="item-price">$399 <sup>50</sup></div>
+              <div class="item-actions">
+                <button class="btn  item-actions__more">
+                  More details
+                </button>
+                <button class="btn item-actions__cart">
+                  Add to cart
+                  <img src="img/icon (2).png" alt="img">
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-12 page-pagination__more">
+            <a class="page-pagination__link" href="#">Load more...</a>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 page-footer__copy">
+          <span>@ Copyright 2017</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
