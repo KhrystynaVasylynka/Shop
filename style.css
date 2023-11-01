@@ -449,6 +449,7 @@ font-size: 24px;
 margin: 10px 0px;
 color: white;
 }
+
 .sidebar-filter .form-check-label {
 display: block;
 margin-left: 1.8rem;
@@ -484,6 +485,7 @@ color: #ffffff;
 
 font-size: 1.25rem;
 }
+
 .sidebar-filter__submit {
 border: 1px solid #ffffff;
 border-radius: 0;
