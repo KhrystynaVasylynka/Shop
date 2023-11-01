@@ -155,12 +155,12 @@ display: block;
 height: 20px;
 width: 20px;
 content: "";
-background-image: url(img/211687_down_arrow_icon.png);
+background-image: url(img/211687_down_arrow_blue.png);
 background-position: 50% 50%;
 }
 
 .menu a:hover.dropdown::after {
-background-image: url(img/211687_down_arrow_icon\\(1\).png);
+background-image: url(img/211687_down_arrow_white.png);
 }
 
 .dropdown-menu {
@@ -181,7 +181,7 @@ color: #2c71b8;
 }
 
 .menu > li:hover a.dropdown::after {
-background-image: url(img/211687_down_arrow_icon\\(1\).png);
+background-image: url(img/211687_down_arrow_white.png);
 }
 
 .menu > li:hover .dropdown-menu {
@@ -311,26 +311,26 @@ border: 1px solid #2c71b6;
 }
 
 .btn-square {
-background-image: url(img/icon\\(8\).png);
+background-image: url(img/square\ blue.png);
 background-position: 50% 50%;
 background-repeat: no-repeat;
 }
 
 .btn-square:hover {
 background-color: #2c71b6;
-background-image: url(img/icon\\(6\).png);
+background-image: url(img/square\ white.png);
 background-position: 50% 50%;
 background-repeat: no-repeat;
 }
 
 .btn-heart {
-background-image: url(img/icon\\(5\).png);
+background-image: url(img/heart\ blue.png);
 background-position: 50% 50%;
 background-repeat: no-repeat;
 }
 .btn-heart:hover {
 background-color: #2c71b6;
-background-image: url(img/icon\\(7\).png);
+background-image: url(img/heart\ white.png);
 background-position: 50% 50%;
 background-repeat: no-repeat;
 }
