@@ -186,6 +186,7 @@ background-image: url(img/211687_down_arrow_white.png);
 
 .menu > li:hover .dropdown-menu {
 display: block;
+z-index: 50;
 }
 
 /* main */
@@ -336,9 +337,9 @@ background-repeat: no-repeat;
 }
 
 .btn-heart.active {
-  background-color: #2c71b8;
-	background-image: url(img/heart\ white.png);
-	background-position: 50% 50%;
+background-color: #2c71b8;
+background-image: url(img/heart\ white.png);
+background-position: 50% 50%;
 background-repeat: no-repeat;
 }
 
@@ -502,40 +503,107 @@ text-transform: uppercase;
 }
 
 .modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: none;
 }
 
 .modal.active {
-  display: block;
+display: block;
 }
 
 .modal__wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px;
-  background-color: #2c71b8;
-  padding: 50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 1000px;
+background-color: #2c71b8;
+padding: 50px;
 }
 
 .close {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  background: transparent;
-  border: none;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
+position: absolute;
+right: 10px;
+top: 10px;
+background: transparent;
+border: none;
+width: 35px;
+height: 35px;
+cursor: pointer;
 }
 
 .close img {
-  width: 100%;
-  height: 100%;
+width: 100%;
+height: 100%;
+}
+
+.slider {
+height: 400px;
+background-color: rgba(0, 0, 0, 0.2);
+border-bottom: 1px solid white;
+}
+
+.slider-block {
+padding: 120px;
+font-size: 100px;
+letter-spacing: 10px;
+color: #fff;
+font-family: "Roboto";
+text-align: center;
+}
+
+.slick-arrow {
+width: 50px;
+height: 50px;
+}
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+padding-bottom: 60px;
+width: 60px;
+height: 60px;
+}
+.slick-dots {
+position: relative;
+}
+
+.slick-dots li {
+margin: 10px;
+}
+
+.slick-dots li button::before {
+display: none;
+}
+
+.slick-next:before {
+right: 0;
+position: absolute;
+content: "";
+width: 60px;
+height: 60px;
+background: url(/img/2931159_arrow_forward_right_move_navigation_icon.svg);
+z-index: 100;
+}
+
+.slick-prev:before {
+left: 0;
+position: absolute;
+content: "";
+width: 60px;
+height: 60px;
+background: url(/img/2931162_arrow_back_left_direction_move_icon.svg);
+}
+
+.slick-dots li button {
+width: 10px;
+height: 10px;
+border: 1px solid #fff;
+}
+
+.slick-dots .slick-active button {
+background-color: #fff;
 }

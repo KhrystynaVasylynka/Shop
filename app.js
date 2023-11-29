@@ -14,7 +14,7 @@ const likeBtns = document.querySelectorAll(".btn-heart");
 
 likeBtns.forEach((item) => {
   item.addEventListener("click", function () {
-    item.classList.toggle("active");
+		item.classList.toggle("active");
   });
 });
 
@@ -23,10 +23,36 @@ const modalWindow = document.querySelector(".modal");
 const modalClose = document.querySelector(".close");
 modalOpen.forEach((item) => {
   item.addEventListener("click", function () {
-    modalWindow.classList.add("active");
+		modalWindow.classList.add("active");
   });
 });
 
 modalClose.addEventListener("click", function () {
   modalWindow.classList.remove("active");
+});
+
+
+// modalOpen.addEventListener("click", function (e) {
+
+// 	if (e.target === modal) {
+
+// 		modalClose();
+
+// 	}
+
+// 	if (e.target === document.querySelector(".item-actions__more")) {
+
+// 			let h3 = document.querySelector(".form-more-details h3");
+
+// 			h3.style.backgroundColor = "green";
+
+// 	}
+
+// });
+
+
+$('.slider-block').slick( {
+	dots: true,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });
