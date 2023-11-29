@@ -585,7 +585,7 @@ position: absolute;
 content: "";
 width: 60px;
 height: 60px;
-background: url(../img/2931159_arrow_forward_right_move_navigation_icon.svg);
+background: url(img/2931159_arrow_forward_right_move_navigation_icon.svg);
 z-index: 100;
 }
 
@@ -595,7 +595,7 @@ position: absolute;
 content: "";
 width: 60px;
 height: 60px;
-background: url(../img/2931162_arrow_back_left_direction_move_icon.svg);
+background: url(img/2931162_arrow_back_left_direction_move_icon.svg);
 }
 
 .slick-dots li button {
