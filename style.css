@@ -607,3 +607,21 @@ border: 1px solid #fff;
 .slick-dots .slick-active button {
 background-color: #fff;
 }
+
+
+.product-quantity {
+	background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+max-width: 210px;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+.product-quantity button {
+	border: 1px solid black;
+	background: gainsboro;
+}
+
+input {
+	background-color: rgba(255, 255, 255, 0.75);
+	width: 130px;}
